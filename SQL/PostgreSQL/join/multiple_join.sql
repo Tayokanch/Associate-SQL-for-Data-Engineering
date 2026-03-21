@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 -- EXAMPLE 2
@@ -52,3 +53,12 @@ ON c.code = p.country_code
 INNER JOIN economies AS e
 ON c.code = e.code
 	AND e.year = p.year
+=======
+SELECT *
+FROM left_tables
+INNER JOIN right_tale
+ON left_tables.id = right_table.id
+INNER JOIN another_table
+ON left_tables.id = another_table.id;
+
+>>>>>>> 49520d4b5f1b5effb115195157c0aefafeff8d06
